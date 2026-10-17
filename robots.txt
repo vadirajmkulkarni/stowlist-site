@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vadirajmkulkarni.github.io/stowlist-site/sitemap.xml

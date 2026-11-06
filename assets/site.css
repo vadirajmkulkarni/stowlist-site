@@ -6,3 +6,7 @@
 .brand img{border-radius:10px}.native-preview{display:block;width:min(100%,280px);height:auto;margin:0 auto;border:7px solid var(--ink);border-radius:34px;box-shadow:12px 14px 0 #173f3b18;transform:rotate(3deg)}
 @media(max-width:380px){.demo-row{flex-wrap:wrap;gap:12px}.demo-controls{margin-left:auto}.header nav{max-width:130px}}
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}}
+
+/* The official App Store artwork stays unmodified, with 12px clear space around its 48px height. */
+.download-actions{gap:20px;margin-left:-12px}.app-store-badge{display:inline-flex;padding:12px;line-height:0;border-radius:10px}.app-store-badge img{display:block;height:48px;width:auto;max-width:none}.app-store-badge:hover{opacity:.88}.hero h1{font-size:clamp(3rem,5.6vw,5rem)}footer .trademark{flex-basis:100%;font-size:.7rem}
+@media(max-width:720px){.hero h1{font-size:clamp(2.75rem,10.6vw,4.25rem)}.download-actions{gap:8px 16px}}
